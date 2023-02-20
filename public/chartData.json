@@ -1,0 +1,30 @@
+[
+  {
+    "date": "02/20/2023",
+    "expectations": [
+      "Follow directions the first time.",
+      "Keep hands, feet, and objects to myself.",
+      "Do my work and do my best"
+    ],
+    "consequences": [
+      "Reminder/Warning",
+      "Reflection of Behavior",
+      "Loss of Reward"
+    ],
+    "rewards": [
+      "",
+      ""
+    ],
+    "schedule": [
+      {
+        "title": "Get Ready",
+        "description": "Brush teeth, get dressed, eat breakfast, etc.",
+        "expectationsMet": [
+          false,
+          false,
+          false
+        ]
+      }
+    ]
+  }
+]

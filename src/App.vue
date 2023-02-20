@@ -28,14 +28,30 @@ const entryUpdateDelayTimeout = ref<number>();
 const generateEmptyScheduleEntry = () => (<ChartDBEntrySchedule>{
   title: '',
   description: '',
-  expectationsMet: [],
+  expectationsMet: [
+    false,
+    false,
+    false,
+  ],
 });
 
 const generateEmptyDBEntry = () => (<ChartDBEntry>{
   date: activeDateString.value,
-  expectations: [],
-  consequences: [],
-  rewards: [],
+  expectations: [
+    '',
+    '',
+    '',
+  ],
+  consequences: [
+    '',
+    '',
+    '',
+  ],
+  rewards: [
+    '',
+    '',
+    '',
+  ],
   schedule: [
     generateEmptyScheduleEntry(),
     generateEmptyScheduleEntry(),

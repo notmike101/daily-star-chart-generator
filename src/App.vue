@@ -3,7 +3,6 @@ import { computed, ref, watch, toRaw, provide } from 'vue'
 import { get as dbGet, set as dbSet } from 'idb-keyval';
 import { Temporal } from '@js-temporal/polyfill';
 import { generateEmptyDBEntry, generateEmptyScheduleEntry } from '@/compostables/dataManager';
-
 import ChartTitle from '@/components/ChartTitle.vue';
 import NavButtons from '@/components/NavButtons.vue';
 import ChartScheduleItem from '@/components/ChartScheduleItem.vue';

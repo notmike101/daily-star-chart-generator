@@ -2,13 +2,13 @@
 import { computed, ref, watch, toRaw, provide } from 'vue'
 import { get as dbGet, set as dbSet } from 'idb-keyval';
 import { Temporal } from '@js-temporal/polyfill';
-import { generateEmptyDBEntry, generateEmptyScheduleEntry } from './compostables/dataManager';
+import { generateEmptyDBEntry, generateEmptyScheduleEntry } from '@/compostables/dataManager';
 
-import ChartTitle from './components/ChartTitle.vue';
-import NavButtons from './components/NavButtons.vue';
-import ChartScheduleItem from './components/ChartScheduleItem.vue';
-import TopColumn from './components/TopColumn.vue';
-import ColumnEnd from './components/ColumnEnd.vue';
+import ChartTitle from '@/components/ChartTitle.vue';
+import NavButtons from '@/components/NavButtons.vue';
+import ChartScheduleItem from '@/components/ChartScheduleItem.vue';
+import TopColumn from '@/components/TopColumn.vue';
+import ColumnEnd from '@/components/ColumnEnd.vue';
 
 const activeDate = ref(Temporal.Now.plainDateISO());
 const activeDateString = computed(() => `${activeDate.value.year}-${activeDate.value.month.toString().padStart(2, '0')}-${activeDate.value.day.toString().padStart(2, '0')}`);

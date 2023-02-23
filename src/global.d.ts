@@ -1,9 +1,11 @@
+/// <reference types="vite-svg-loader" />
+
 type Nullable<T> = T | null;
 
 interface ChartDBEntrySchedule {
   title: string;
   description: string;
-  expectationsMet: boolean[];
+  expectationsMet: Nullable<boolean>[];
 }
 
 interface ChartDBTopColumn {

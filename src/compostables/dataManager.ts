@@ -2,9 +2,9 @@ export const generateEmptyScheduleEntry = () => (<ChartDBEntrySchedule>{
   title: '',
   description: '',
   expectationsMet: [
-    false,
-    false,
-    false,
+    null,
+    null,
+    null,
   ],
 });
 

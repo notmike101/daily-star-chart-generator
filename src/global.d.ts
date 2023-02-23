@@ -19,6 +19,6 @@ interface ChartDBEntry {
   consequences: string[];
   rewards: string[];
   schedule: ChartDBEntrySchedule[];
-  totals: number[];
+  totals: [string, string];
   misc: string[];
 }

@@ -38,6 +38,6 @@ export const generateEmptyDBEntry = (dateString: string) => (<ChartDBEntry>{
     generateEmptyScheduleEntry(),
     generateEmptyScheduleEntry(),
   ],
-  totals: [0, 0],
+  totals: ['', ''],
   misc: ['', ''],
 });
